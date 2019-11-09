@@ -1,0 +1,17 @@
+.menu__content {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(64, 70, 84, .9);
+
+    .menu__list{
+        background-color: $orange-base;
+        width: 75%;
+        height: 100%;
+        li {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,38 @@
+html {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  
+body {
+    // transition: padding-top $global-transition-time;
+
+    min-height: 200vh;
+}
+  
+html,
+body {
+    font-display: auto;
+    // font-family: $font-family-sans-serif;
+  
+    width: 100%;
+    height: auto;
+  
+    padding: 0;
+    margin: 0;
+  
+    @include media-breakpoint-down(sm) {
+      font-size: 1rem;
+    }
+    @include media-breakpoint-between(md, lg) {
+      font-size: 2vw;
+    }
+    @include media-breakpoint-between(lg, xl) {
+      font-size: 1.1vw;
+    }
+    @include media-breakpoint-up(xl) {
+      font-size: 0.9vw;
+    }
+    @include media-breakpoint-up(xxl) {
+      font-size: 17px;
+    }
+}

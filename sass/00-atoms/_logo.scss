@@ -1,0 +1,15 @@
+.logo {
+    font-family: 'M PLUS 1p', sans-serif;
+    letter-spacing: -0.2px;
+
+    a {
+        color: $color-base;
+
+        &:hover {
+            color: $color-base;
+        }
+        span {
+            color: $orange-base;
+        }
+    }
+}
