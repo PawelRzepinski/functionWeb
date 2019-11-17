@@ -8,4 +8,4 @@ import '../sass/style.scss';
 
 /* MODULES
 --------------------------------------------------------------------------------------*/
-import './modules/burger';
+import './modules/nav';

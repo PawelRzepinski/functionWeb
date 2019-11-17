@@ -1,67 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="PL-pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Webpack Project</title>
+    <title>function web ()</title>
     <link rel="stylesheet" href="style.bundle.css"> 
     <link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,700|Exo+2:200,300,400,500,600,700|M+PLUS+1p:300,400,500,700|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,900,900i|Ubuntu+Mono:400,400i,700,700i&display=swap&subset=latin-ext" rel="stylesheet">
-
+    <link href="https://file.myfontastic.com/4HxniH7h772cN6bzQED948/icons.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="container-fluid">
         <div class="nav">
-            <header class="nav__header" style="display: none;">
-                <ul class="menu__list list--header">
-                    <li><a href="#" class="menu__item item--header">O mnie</a></li>
-                    <li><a href="#" class="menu__item item--header">Kontakt</a></li>
-                    <li><a href="#" class="menu__item item--header">Szukaj...</a></li>
-                </ul>
-                <ul class="menu__list list--social">
-                    <li><a href="#" class="menu__item item--social">facebook</a></li>
-                    <li><a href="#" class="menu__item item--social">tweeter</a></li>
-                    <li><a href="#" class="menu__item item--social">github</a></li>
-                </ul>
-            </header>
-            <section class="nav__menu">
-                <h1 class="logo">
-                    <a href="#">function <span>web</span> <!--()--></a>
-                </h1>
-                <div class="menu__content">
-                    <ul class="menu__list">
-                        <li><a href="#">JavaScript</a></li>
-                        <li><a href="#">CSS</a></li>
-                        <li><a href="#">Freamworks</a></li>
-                        <li><a href="#">Inne</a></li>
-                    </ul>
-                </div>
-                <button class="burger">
-                    <div class="buger__lines">
-                        <span class="line--top"></span>
-                        <span class="line--middle"></span>
-                        <span class="line--bottom"></span>
+            <div class="burger">
+                <span class="burger__line line--top"></span>
+                <span class="burger__line line--middle"></span>
+                <span class="burger__line line--bottom"></span>
+            </div>
+            <div class="logo">
+                <a href="#"><h1>function <span>web</span></h1></a>
+            </div>
+            <div class="nav__box">
+                <div class="box__content">
+                    <div class="nav__menu">
+                        <ul class="menu__list">
+                            <li><a href="#">JavaScript</a></li>
+                            <li><a href="#">HTML i CSS</a></li>
+                            <li><a href="#">Freamworks</a></li>
+                            <li><a href="#">Inne</a></li>
+                        </ul>
+                        
                     </div>
-                </button>
-            </section>
+                    <div class="nav__header">
+                        <ul class="menu__social">
+                            <li>
+                                <a class="icon-facebook-square" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="icon-twitter-square" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="icon-linkedin-square" href="#"></a>
+                            </li>
+                            <li>
+                                <a class="icon-search" href="#"></a>
+                            </li>
+                        </ul>
+                        <ul class="menu__list list--about">
+                            <li><a href="#">O mnie</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box__shadow"></div>
+            </div>
         </div>
     </div>
 
+<!-- 
+    
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p> -->
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
+    <div class="test-text" style="margin: 3rem 0; padding: 2rem; text-align: center;">
+        tle</h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt qui id, quam ducimus culpa maxime maiores fugiat iusto aut perspiciatis, atque animi pariatur expedita aliquam. Rerum quis numquam qui. Dolore sit, quae non similique modi unde officia exercitationem labore maxime?</h1>
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta facere repudiandae perferendis nihil, quo fuga. Vitae aliquam distinctio amet ea!</h1>
+        <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, magnam?</h1>
+        <h1>Lorem ipsum dolor sit amet, consect</h1>
+        <h1>Flexy h1 tietur adipisicing elit. Nostrum, sequi placeat enim cum veniam culpa!</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
@@ -72,6 +93,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt mollitia temporibus atque rem hic sit labore architecto enim fugiat doloribus beatae eveniet esse tempora quidem corporis accusamus, ipsum iste a pariatur quia officiis ipsa quisquam sint. Vero pariatur aperiam eveniet iure odio unde doloremque, sunt earum modi necessitatibus aut repellendus.</p>
 
+    </div>
     <!-- SCRIPTS JS -->
     <script src="main.bundle.js"></script>
 </body>

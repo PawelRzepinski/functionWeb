@@ -1,0 +1,23 @@
+/* MENU
+--------------------------------------------------------------------------------------*/
+// BURGER
+.topAction {
+    top: 50%!important;
+    transform:  translate(0, -50%) rotate(45deg);
+    transition: .3s;
+}
+.middleAction {
+    // transform: translate(1000%, -50%);    
+    // transition: .3s;
+    display: none!important;
+}
+.bottomAction {
+    top: 50%!important;
+    transform: translate(0, -50%) rotate(-45deg);
+    transition: .3s;
+}
+
+// MOBILE - MENU
+.showMenu {
+    transform: translate(0, 0)!important;
+}
